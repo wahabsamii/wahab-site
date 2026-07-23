@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react'
-import { useNavigate, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import { TailSpin } from 'react-loader-spinner';
 import { toast } from 'react-toastify';
 import ProjectSubHero from './ProjectSubHero';
