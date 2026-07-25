@@ -11,7 +11,7 @@ function HomeServices() {
 
   const fetchServices = async() => {
     try {
-      const res = await axios.get('http://localhost:4000/api/service/');
+      const res = await axios.get('https://wahab-me-backend.vercel.app/api/service/');
       setServices(res.data.services);
     } catch (error) {
       toast.error(error.message);

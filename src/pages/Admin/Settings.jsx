@@ -9,7 +9,7 @@ function Settings() {
 
   const fetchServices = async() => {
     try {
-      const res = await axios.get('http://localhost:4000/api/service/');
+      const res = await axios.get('https://wahab-me-backend.vercel.app/api/service/');
       setServices(res.data.services);
     } catch (error) {
       toast.error(error.message);
@@ -51,7 +51,7 @@ function Settings() {
     data.append("title", formData.title);
     data.append("description", formData.description);
     data.append("image", image);
-    const response = await axios.post('http://localhost:4000/api/service/', data);
+    const response = await axios.post('https://wahab-me-backend.vercel.app/api/service/', data);
     // const response = await axios.post('http://localhost:4000/api/service/', data, {
     //   headers: {
     //     "Content-Type": "multipart/form-data"
@@ -85,7 +85,7 @@ function Settings() {
       'Are you sure you want to delete this service?'
     )
 
-    const res = await axios.delete(`http://localhost:4000/api/service/${id}`);
+    const res = await axios.delete(`https://wahab-me-backend.vercel.app/api/service/${id}`);
     if (res) {
       toast.success("service deleted");
     }
