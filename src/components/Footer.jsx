@@ -12,6 +12,7 @@ import {
 
 import logo from '../assets/logomain.png'
 import { Link } from "react-router-dom";
+import { FaFacebookF, FaGithub, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white pt-16 px-6 md:px-20">
@@ -62,18 +63,19 @@ const Footer = () => {
               <Phone className="w-4 h-4" /> +92-311-1535281
             </li>
           </ul>
-          <div className="flex gap-4 mt-5">
-            <Link to='https://github.com/wahabsamii'><Github className="w-5 h-5 hover:text-[#FF014F] cursor-pointer" /></Link>
-            <Link to='https://www.linkedin.com/in/abdul-wahab-148427277/'><Linkedin className="w-5 h-5 hover:text-[#FF014F] cursor-pointer" /></Link>
-            <Link><Twitter className="w-5 h-5 hover:text-[#FF014F] cursor-pointer" /></Link>
-            <Link to='https://www.facebook.com/profile.php?id=100025706373338&_rdc=1&_rdr#'><Facebook className="w-5 h-5 hover:text-[#FF014F] cursor-pointer" /></Link>
-          </div>
+           <div className='hidden xl:block mt-4 '>
+                    <ul className='flex gap-4'>
+                      <Link to='https://github.com/wahabsamii' target="_blank" className='p-2 rounded-md text-white hover:bg-[#FF014F] bg-[#ffffff3b] border-white hover:border-[#FF014F] border-[1px] cursor-pointer'><FaGithub /></Link>
+                      <Link to='https://www.linkedin.com/in/abdul-wahab-148427277/' target="_blank" className='p-2 rounded-md text-white hover:bg-[#FF014F] bg-[#ffffff3b] border-white hover:border-[#FF014F] border-[1px] cursor-pointer'><FaLinkedinIn /></Link>
+                      <Link className='p-2 rounded-md text-white  hover:bg-[#FF014F] target="_blank" bg-[#ffffff3b] border-white hover:border-[#FF014F] border-[1px] cursor-pointer'><FaTwitter /></Link>
+                      <Link to="https://web.facebook.com/profile.php?id=61592267436663" target="_blank" className='p-2 rounded-md text-white hover:bg-[#FF014F] bg-[#ffffff3b] border-white hover:border-[#FF014F] border-[1px] cursor-pointer'><FaFacebookF /></Link>
+                    </ul></div>
         </div>
       </div>
 
       {/* Footer bottom */}
       <div className="max-w-7xl mx-auto py-6 flex flex-col md:flex-row justify-between text-sm text-gray-500 px-4">
-        <p>©AbdulWahab 2025 | All Rights Reserved</p>
+        <p>AWNexa Technologies © {new Date().getFullYear()} | All Rights Reserved</p>
         <div className="flex gap-6 mt-4 md:mt-0">
           <a href="#">Trams & Condition</a>
           <a href="#">Privacy Policy</a>

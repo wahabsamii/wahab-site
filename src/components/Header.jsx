@@ -24,9 +24,9 @@ function Header() {
   return (
     <>
     <header className='flex bg-black justify-between items-center px-2 md:px-10 py-3 relative z-50' style={{backgroundColor: isAdminPath  ? 'rgba(0,0,0,1)' : 'rgba(255, 255, 255, 0.1)'}}>
-        <div className="logo">
+        <Link to={'/'} className="logo">
             <img src={logo} alt="" className='w-[220px]' />
-        </div>
+        </Link>
       <div className="nav mr-3 ">
         <FaBarsStaggered className='text-2xl md:hidden' onClick={() => setShow(!show)}/>
   {show && <ul className="flex gap-5 absolute left-0 top-28 right-0 flex-col md:flex-row p-2 md:p-0 sm:border-b-[1px] sm:border-b-white bg-black text-white">
@@ -83,13 +83,13 @@ function Header() {
 </div>
 
         <div className="others flex flex-row gap-3 items-center">
-          <div className='hidden xl:block '>
+          {/* <div className='hidden xl:block '>
           <ul className='flex gap-4'>
             <Link to='https://github.com/wahabsamii' className='p-2 rounded-full text-white hover:bg-[#FF014F] bg-[#ffffff3b] border-white hover:border-[#FF014F] border-[1px] cursor-pointer'><FaGithub /></Link>
             <Link to='https://www.linkedin.com/in/abdul-wahab-148427277/' className='p-2 rounded-full text-white hover:bg-[#FF014F] bg-[#ffffff3b] border-white hover:border-[#FF014F] border-[1px] cursor-pointer'><FaLinkedinIn /></Link>
             <Link className='p-2 rounded-full text-white  hover:bg-[#FF014F] bg-[#ffffff3b] border-white hover:border-[#FF014F] border-[1px] cursor-pointer'><FaTwitter /></Link>
             <Link to="https://web.facebook.com/profile.php?id=100025706373338" className='p-2 rounded-full text-white hover:bg-[#FF014F] bg-[#ffffff3b] border-white hover:border-[#FF014F] border-[1px] cursor-pointer'><FaFacebookF /></Link>
-          </ul></div>
+          </ul></div> */}
           {/* <div className=' bg-[#FF014F] cursor-pointer rounded-full w-50 h-50 p-1'>
             <HiBars3BottomRight className='text-white text-2xl relative z-10 ' onClick={() => setOpen(true)}/>
           </div> */}

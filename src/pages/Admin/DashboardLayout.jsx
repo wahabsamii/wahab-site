@@ -17,7 +17,7 @@ const Sidebar = () => {
     { label: "Users", icon: <FaUsers />, path: "/admin/users" },
     { label: "Projects", icon: <FaUsers />, path: "/admin/projects" },
     { label: "Blogs", icon: <FaUsers />, path: "/admin/blogs" },
-//     { label: "Settings", icon: <FaCog />, path: "/admin/settings" },
+    { label: "Services", icon: <FaCog />, path: "/admin/settings" },
     { label: "Appointments", icon: <FaCog />, path: "/admin/appointments" },
   ];
 

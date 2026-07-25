@@ -10,6 +10,7 @@ import TestimonialSection from '../components/TestimonialSection'
 import ContactSection from '../components/ContactSection'
 import BlogSection from '../components/BlogSection'
 import { ThreeDots } from 'react-loader-spinner';
+import HomeHero2 from '../components/HomeHero2'
 
 function Home() {
   const [loading, setLoading] = useState(false);
@@ -31,7 +32,8 @@ function Home() {
 )}
 
     <div className=''>
-        <HomeHero />
+        {/* <HomeHero /> */}
+        <HomeHero2/>
         <HomeServices/>
         <SkillSection />
         <ConsultingPortfolio />
