@@ -54,7 +54,7 @@ const Footer = () => {
           <h3 className="font-semibold text-lg mb-4">Contact</h3>
           <ul className="space-y-4 text-gray-300">
             <li className="flex items-center gap-3 ">
-              <Mail className="w-4 h-4 " /> wahabsami.dev@gmail.com
+              <Mail className="w-4 h-4 " /> info@awnexatech.com
             </li>
             <li className="flex items-center gap-3">
               <MapPin className="w-4 h-4" /> Ring Road Peshawar Kabootar Chowk
