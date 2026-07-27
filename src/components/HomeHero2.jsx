@@ -1,6 +1,7 @@
 import React from 'react'
 import bgImage from '../assets/herobanner.png'
 import COLORS from '../constant/colors'
+import { Link } from 'react-router-dom'
 
 function HomeHero2() {
   return (
@@ -75,13 +76,14 @@ function HomeHero2() {
             </a>
 
             {/* Secondary CTA */}
-            <a
-              href="#contact"
+            <Link
+              to={"/contact"}
               className="rounded-lg border border-white/40 bg-black/20 px-7 py-3.5 font-semibold text-white backdrop-blur-sm transition duration-300 hover:border-white hover:bg-white hover:text-black"
             >
-              Let's Work Together
+              {/* Let's Work Together */}
+              Contact Now
               <span className="ml-3">→</span>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
