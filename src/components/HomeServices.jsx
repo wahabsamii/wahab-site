@@ -39,7 +39,7 @@ useEffect(() => {
 }, []);
 
   return (
-    <div className="p-8 pt-16 bg-black">
+    <div className="p-8 pt-16 bg-black" id='services'>
       <div className="text-center">
         <p className="text-[#FF014F] text-sm font-semibold uppercase">Latest Service</p>
         <h1 className="text-3xl md:text-4xl font-extrabold mt-2 mb-3 text-white">
