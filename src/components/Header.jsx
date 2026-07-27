@@ -9,6 +9,7 @@ import { ImCross } from "react-icons/im";
 import manImg from '../assets/man.png'
 import { useSelector } from 'react-redux';
 import { FaBarsStaggered } from "react-icons/fa6";
+import { FaArrowRight } from "react-icons/fa";
 
 function Header() {
   const [open, setOpen] = useState(false);
@@ -94,8 +95,25 @@ function Header() {
             <HiBars3BottomRight className='text-white text-2xl relative z-10 ' onClick={() => setOpen(true)}/>
           </div> */}
           <div>
-            {currentUser ? <><NavLink to={currentUser?.role === 'admin' ? '/admin/dashboard' : '/user/dashboard'} className=' bg-white text-white border-white text-3xl'><FaUserCircle /></NavLink></> : <NavLink to='/login' className='bg-[#FF014F] p-2 rounded-md text-white px-3'>Login</NavLink>}
-          </div>
+  {currentUser ? (
+    <>
+      <NavLink
+        to={currentUser?.role === 'admin' ? '/admin/dashboard' : '/user/dashboard'}
+        className='bg-white text-white border-white text-3xl'
+      >
+        <FaUserCircle />
+      </NavLink>
+    </>
+  ) : (
+    <NavLink
+      to='/login'
+      className='border-[#FF014F] group hover:bg-[#FF014F] transition duration-300 border-[1px] p-2 rounded-md text-white px-3 inline-flex items-center gap-2'
+    >
+      Get Started
+      <FaArrowRight className='text-[#FF014F] group-hover:text-white'/>
+    </NavLink>
+  )}
+</div>
         </div>
     </header>
 
