@@ -11,7 +11,7 @@ const ContactInfoSection = () => {
     {
       icon: <Mail className="text-white" size={28} />,
       title: "E-Mail",
-      lines: ["wahabsami.dev@gmail.com", "wahabsami09@gmail.com"],
+      lines: ["info@awnexatech.com"],
     },
     {
       icon: <PhoneCall className="text-white" size={28} />,
