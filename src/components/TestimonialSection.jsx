@@ -11,25 +11,25 @@ import { AiFillStar } from "react-icons/ai";
 const testimonials = [
   {
     id:1,
-    text: "Abdul Wahab delivered an exceptional website design that exceeded all my expectations with its visual appeal and professionalism! Working with her was a breeze thanks to her quick responsiveness, cooperative nature, and politeness. Highly recommend her services! 👏",
+    text: "AWNexa Technologies delivered an exceptional website design that exceeded all my expectations with its visual appeal and professionalism! Working with her was a breeze thanks to her quick responsiveness, cooperative nature, and politeness. Highly recommend her services! 👏",
     name: "bailey_greta",
     title: "business owner",
   },
   {
     id:2,
-    text: "Abdul is really good at what he is doing. You need to be clear about the process. He will create something cool and then you can give detailed feedback and he makes it happen. From his first draft I learned a lot about what is possible and what works for me and what does not. I created a google doc to help summarizing all the changes I wanted - that was helpful for the cooperation. Abdul is definitely a pro in his field and knows how to implement the things I envisioned for my website.",
+    text: "AWNexa tech is really good at what he is doing. You need to be clear about the process. He will create something cool and then you can give detailed feedback and he makes it happen. From his first draft I learned a lot about what is possible and what works for me and what does not. I created a google doc to help summarizing all the changes I wanted - that was helpful for the cooperation. Abdul is definitely a pro in his field and knows how to implement the things I envisioned for my website.",
     name: "sebastian_dei",
     title: "Book Publisher",
   },
   {
     id:3,
-    text: "Working with Abdulwahab was an absolute joy! His coding expertise and meticulous attention to detail went far beyond my expectations. Not only did he understand my needs perfectly, but his responsiveness and willingness to go the extra mile made the entire experience smooth and stress-free. Even as the project became more complex, he handled everything with patience and grace. I’ll definitely be back for future projects!",
+    text: "Working with AWNexa Technologies was an absolute joy! His coding expertise and meticulous attention to detail went far beyond my expectations. Not only did he understand my needs perfectly, but his responsiveness and willingness to go the extra mile made the entire experience smooth and stress-free. Even as the project became more complex, he handled everything with patience and grace. I’ll definitely be back for future projects!",
     name: "cedric_coleman",
     title: "Artist & Writer",
   },
   {
     id:4,
-    text: "Working with Abdulwahab was an absolute joy! His coding expertise and meticulous attention to detail went far beyond my expectations. Not only did he understand my needs perfectly, but his responsiveness and willingness to go the extra mile made the entire experience smooth and stress-free. Even as the project became more complex, he handled everything with patience and grace. I’ll definitely be back for future projects!",
+    text: "Working with AWNexa was an absolute joy! His coding expertise and meticulous attention to detail went far beyond my expectations. Not only did he understand my needs perfectly, but his responsiveness and willingness to go the extra mile made the entire experience smooth and stress-free. Even as the project became more complex, he handled everything with patience and grace. I’ll definitely be back for future projects!",
     name: "cedric_coleman",
     title: "Artist & Writer",
   },

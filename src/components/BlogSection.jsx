@@ -40,7 +40,7 @@ const BlogSection = ({loading, setLoading}) => {
             <div className="p-5">
               <p className="text-sm text-white mb-2 flex items-center gap-2">
                 <span className="inline-block bg-gray-800 px-2 py-1 rounded-full">
-                  👤 {blog?.author?.name || 'wahab'} 📅 {new Date(blog.date).toLocaleDateString()}
+                  👤 {blog?.author?.name || 'admin'} 📅 {new Date(blog.date).toLocaleDateString()}
                 </span>
               </p>
               <h3 className="font-semibold text-lg leading-snug mb-3">{blog.title}</h3>

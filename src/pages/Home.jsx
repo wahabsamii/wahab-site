@@ -37,8 +37,8 @@ function Home() {
         <HomeServices/>
         <SkillSection />
         <ConsultingPortfolio />
-        <EducationSection />
-        <ConsultingExp/>
+        {/* <EducationSection /> */}
+        {/* <ConsultingExp/> */}
         <Portfolio loading={loading} setLoading={setLoading}/>
         <TestimonialSection/>
         <ContactSection/>
