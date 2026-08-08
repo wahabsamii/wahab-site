@@ -41,7 +41,7 @@ const TestimonialSection = () => {
   return (
     <div className="bg-black text-white py-16 px-4 md:px-20">
       <p className="text-[#FF014F] text-sm font-semibold uppercase text-center">5.0 ★ GOOGLE REVIEWS</p>
-      <h2 className="text-4xl font-bold mb-6 text-center">What New Yorkers say.</h2>
+      <h2 className="text-4xl font-bold mb-6 text-center">What Clinets Say.</h2>
       <div className="max-w-5xl mx-auto relative">
         
         {/* Swiper */}
